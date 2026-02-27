@@ -18,9 +18,9 @@
         /// <summary>
         /// Gets the port number used for network communication.
         /// </summary>
-        /// <remarks>The default value is set to 655334, which exceeds the maximum valid port number.
+        /// <remarks>The default value is set to 65334.
         /// Ensure that the port number is within the valid range of 0 to 65535 when configuring network
         /// settings.</remarks>
-        public int Port { get; init; } = 655334;
+        public int Port { get; init; } = 65334;
     }
 }
